@@ -14,10 +14,10 @@ steps:
   inputs:
     command: 'build'
     projects: '**/*.csproj'
-    arguments: '--output $(Build.BinariresDirectory)/publish_output  --configuration Release'
+    arguments: '--output $(Build.BinariesDirectory)/publish_output  --configuration Release'
 
 - task: PublishBuildArtifacts@1
   inputs:
-    PathtoPublish: '$(Build.BinariresDirectory)/publish_output'
+    PathtoPublish: '$(Build.BinariesDirectory)/publish_output'
     ArtifactName: 'drop'
     publishLocation: 'Container'
