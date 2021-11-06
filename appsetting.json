@@ -1,5 +1,5 @@
 {
-  "ConnectionStrings": {
+  "ConnectionStrings": { 
     "ConString": "Server=tcp:nadeemlarisqlserver.database.windows.net,1433;Initial Catalog=dev;Persist Security Info=False;User ID=nadeem;Password={password};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
   }
 }
